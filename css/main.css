@@ -307,3 +307,12 @@ table th {
     border-bottom: 0;
   }
 }
+
+#clock {
+  color:rgb(0, 140, 255);
+  font-weight: bold;
+  font-size: 1.3em;
+  width: 120px;
+  margin: 5px;
+  text-align: center;
+}
