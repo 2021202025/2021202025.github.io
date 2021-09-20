@@ -166,7 +166,7 @@ ul.posts li {
   table th,
   table td {
     padding: .625em;
-    text-align: justify;
+    text-align: center;
   }
   
   table th {
@@ -240,6 +240,15 @@ ul.posts li {
     background-color:grey;
   }
   
+  .content{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+    
+  }
 
   
   
