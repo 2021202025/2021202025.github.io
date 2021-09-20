@@ -1,275 +1,305 @@
 #header {
-    width: 100%;
-    height: 90vh;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 60px 12px;
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 60px 12px;
 }
 
 header nav {
-    width: 100%;
-    height: 10vh;
-    background-color: white;
-    display: grid;
-    align-items: center;
-    border-bottom: 4px solid #000000;
-    position: fixed;
-    top: 0;
-    left: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(19, 19, 19);
+  display: grid;
+  align-items: center;
+  border-bottom: 4px solid #000000;
+  position: fixed;
+  justify-content: space-around;
+  font-weight: bolder;
+  font-size: 2.1vh;
+  top: 0;
+  left: 0;
 }
 
 header .nav-item {
-    display: inline;
-    margin: 0 8px;
+  display: inline;
+  margin: 0 8px;
+}
+
+.burger{
+display: none;
+}
+
+.burger div {
+text-align: right;
+width: 25px;
+height: 3px;
+background-color: rgb(0, 140, 255);
+margin: 5px;
 }
 
 header .nav-item:first-of-type {
-    margin-left: 48px;
+  margin-left: 48px;
 }
 
 
 body {
-    margin: 60px auto;
-    width: 70%;
+  margin: 60px auto;
+  width: 70%;
 }
 
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
 }
 
 nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 nav {
-    position: sticky;
+  position: sticky;
 }
 
 a {
-    text-decoration: none;
-    color: rgb(0, 140, 255);
+  text-decoration: none;
+  color: rgb(0, 140, 255);
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-size: 3em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  border-top: 1px solid #d5d5d5;
+  font-size: .8em;
 }
 
 ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 5.5em;
+  margin: 20px auto 40px; 
+  font-size: 5.5em;
 }
 
 ul.posts li {
-    list-style: none;
+  list-style: none;
 }
 
-  menu{
-    margin-top:20vh;
-  }
-  menu p{
-    line-height:125%;
-    padding: 25px;
-  }
+menu{
+  margin-top:20vh;
+}
+menu p{
+  line-height:125%;
+  padding: 25px;
+}
 
-  #profile {
-    text-align: center;
-    padding: 30px 10px;
-    /* position: relative; */
+#profile {
+  text-align: center;
+  padding: 30px 10px;
+  /* position: relative; */
 }
 .portrait{
-    border-radius: 50%;
-    /* height: 100px;
-    width: 100px; */
+  border-radius: 50%;
+  /* height: 100px;
+  width: 100px; */
 }
 #profile ul.network-icon {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style: none;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
 }
 
 #profile li.network-links {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style: none;
-    padding-left: 5px;
-    padding-right: 5px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .network-links {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style: none;
-    padding-left: 5px;
-    padding-right: 5px;
-    color:rgb(0, 140, 255);
-    font-weight: bold;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  color:rgb(0, 140, 255);
+  font-weight: bold;
+  font-size: 1.1em;
 }
 
 #eduTable td{
-    text-align: justify;
+  text-align: justify;
 }
 
-  /* #nav {
-    font: 12px/30px Helvetica, sans-serif;
-    text-align: center;
-   }
-    
-   #nav a {
-    background: #444;
-    color: #fff;
-    margin-right: 30px;
-    width: 30px;
-    height: 30px;
-    float: left;
-    text-decoration: none;
-    -webkit-transition: all 0.5s ease;
-   }
-    
-   #nav a:hover {
-    background: #6fcbf3;
-   }
-    
-   #bigPic {
-    margin-top: 30px;
-   } */
+/* #nav {
+  font: 12px/30px Helvetica, sans-serif;
+  text-align: center;
+ }
+  
+ #nav a {
+  background: #444;
+  color: #fff;
+  margin-right: 30px;
+  width: 30px;
+  height: 30px;
+  float: left;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+ }
+  
+ #nav a:hover {
+  background: #6fcbf3;
+ }
+  
+ #bigPic {
+  margin-top: 30px;
+ } */
 
-   table {
-    border: 1px solid #ccc;
-    border-collapse: collapse;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    table-layout: fixed;
+ table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+
+
+.progressBar{
+  background-color: rgb(0, 140, 255);
+  border-radius: 4%;
+  height:15px;
+  width:65%;
+}
+
+#skillTable{
+  text-align: center;
+}
+
+.skillRow{
+  width: 100%;
+  background-color:grey;
+}
+
+.content{
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  padding: 0px;
+  list-style: none;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  color: #333;
+}
+
+#logos{
+    text-align: center;
+}
+
+.educationDiv{
+    background-color: lightblue;
+}
+
+.skillData{
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  header .nav-item{
+    font-size: 1.8vh;
+  }
+
+  body{
+    width: 80%;
+  }
+
+  .content{
+    text-align: justify;
+    font-size: 0.9em;
+  }
+
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
   }
   
-  table caption {
-    font-size: 1.5em;
-    margin: .5em 0 .75em;
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
   }
   
   table tr {
-    background-color: #f8f8f8;
-    border: 1px solid #ddd;
-    padding: .35em;
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
   }
   
-  table th,
   table td {
-    padding: .625em;
-    text-align: center;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 1.0em;
+    text-align: right;
   }
   
-  table th {
-    font-size: .85em;
-    letter-spacing: .1em;
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
     text-transform: uppercase;
   }
   
-  @media screen and (max-width: 600px) {
-    table {
-      border: 0;
-    }
-  
-    table caption {
-      font-size: 1.3em;
-    }
-    
-    table thead {
-      border: none;
-      clip: rect(0 0 0 0);
-      height: 1px;
-      margin: -1px;
-      overflow: hidden;
-      padding: 0;
-      position: absolute;
-      width: 1px;
-    }
-    
-    table tr {
-      border-bottom: 3px solid #ddd;
-      display: block;
-      margin-bottom: .625em;
-    }
-    
-    table td {
-      border-bottom: 1px solid #ddd;
-      display: block;
-      font-size: .8em;
-      text-align: right;
-    }
-    
-    table td::before {
-      /*
-      * aria-label has no advantage, it won't be read inside a table
-      content: attr(aria-label);
-      */
-      content: attr(data-label);
-      float: left;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
-    
-    table td:last-child {
-      border-bottom: 0;
-    }
+  table td:last-child {
+    border-bottom: 0;
   }
-
-  .progressBar{
-    background-color: rgb(0, 140, 255);
-    border-radius: 4%;
-    height:15px;
-    width:65%;
-  }
-
-  #skillTable{
-    text-align: center;
-  }
-  
-  .skillRow{
-    width: 100%;
-    background-color:grey;
-  }
-  
-  .content{
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-  }
-
-  #logos{
-      text-align: center;
-  }
-
-  .educationDiv{
-      background-color: lightblue;
-  }
-  
-  .skillData{
-      text-align: center;
-  }
-  
-  
+}
