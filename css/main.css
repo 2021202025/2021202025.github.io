@@ -47,7 +47,7 @@ header .nav-item:first-of-type {
 
 body {
   margin: 60px auto;
-  width: 70%;
+  width: 80%;
 }
 
 nav ul, footer ul {
@@ -222,11 +222,13 @@ table th {
 
 .content{
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
-  padding: 0px;
+  padding:35px;
   list-style: none;
   font-size: 1.5em;
   line-height: 1.4em;
   color: #333;
+  border: 1px solid;
+  box-shadow: 5px 10px 18px #888888;
 }
 
 #logos{
