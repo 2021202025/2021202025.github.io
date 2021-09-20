@@ -11,16 +11,16 @@
   <body>
     <header>
       <nav>
-        <div class="burger">
+        <!-- <div class="burger">
           <div class="line1"></div>
           <div class="line2"></div>
           <div class="line3"></div>
-        </div>
+        </div> -->
         <ul>
-          <li class="nav-item"><a href="#homepage">Home</a></li>
-          <li class="nav-item"><a href="#work">Work Experience</a></li>
-          <li class="nav-item"><a href="#projects">Projects</a></li>
-          <li class="nav-item"><a href="#education">Education/Skills</a></li>
+          <li class="nav-item" onclick="fun1()"><a href="#homepage">Home</a></li>
+          <li class="nav-item" onclick="fun2()"><a href="#work">Work Experience</a></li>
+          <li class="nav-item" onclick="fun3()"><a href="#projects">Projects</a></li>
+          <li class="nav-item" onclick="fun4()"><a href="#education">Education/Skills</a></li>
         </ul>
       </nav>
     </header>
@@ -36,91 +36,79 @@
       <a href="Lab3SecondPage.html">Second Page</a>
     </div>  -->
     <menu>
-      
-      <div id="profile">
-        <!-- <div class="portrait" style="background-image: url('/images/dp.jpg');"></div>
-        <meta itemprop="image" content="/images/dp.jpg"> -->
-        <img class="portrait" src="https://i.ibb.co/nkRGPCp/dp.jpg" alt = "Profile Image" />
-        <div class="portrait-title">
-          <h2 itemprop="name"> Manu Gupta </h2>
-          <h3 itemprop="jobTitle"> Student, IIIT Hyderabad </h3>
-          
-        </div>
-        <!-- <a href="https://imgbb.com/"><img src="https://i.ibb.co/nkRGPCp/dp.jpg" alt="dp" border="0"></a> -->
-        <!-- <link itemprop="url" href="/"> -->
-        <div class="network-links">
-          <a class="network-links" itemprop="sameAs" href="mailto:gmanu21097@gmail.com" target="_blank" rel="noopener">
-            Mail Me
-          </a>
-          <a class="network-links" itemprop="sameAs" href="https://github.com/2021202025" target="_blank" rel="noopener">
-            | Github
-          </a>
-          
-          <a class="network-links" itemprop="sameAs" href="https://www.hackerrank.com/2021202025_manu?hr_r=1" target="_blank" rel="noopener">
-            | HackerRank
-          </a>
-          <a class="network-links" itemprop="sameAs" href="https://iiitaphyd-my.sharepoint.com/:b:/g/personal/manu_gupta_students_iiit_ac_in/Efidj995bJNCsyFB5gdrsfwBlLd2m1pAiGKfqkqdzj0aRw?e=CTYwYK" download="cv.pdf" rel="noopener">
-            | RESUME
-          </a>
-        </div>
-        <!-- <ul class="network-icon" aria-hidden="true">
-          <li class="network-links">
-            <a itemprop="sameAs" href="mailto:gmanu21097@gmail.com" target="_blank" rel="noopener">
+      <div id="profileContent">
+        <div id="profile">
+          <!-- <div class="portrait" style="background-image: url('/images/dp.jpg');"></div>
+          <meta itemprop="image" content="/images/dp.jpg"> -->
+          <img class="portrait" src="https://i.ibb.co/nkRGPCp/dp.jpg" alt = "Profile Image" />
+          <div class="portrait-title">
+            <h2 itemprop="name"> Manu Gupta </h2>
+            <h3 itemprop="jobTitle"> Student, IIIT Hyderabad </h3>
+            
+          </div>
+          <!-- <a href="https://imgbb.com/"><img src="https://i.ibb.co/nkRGPCp/dp.jpg" alt="dp" border="0"></a> -->
+          <!-- <link itemprop="url" href="/"> -->
+          <div class="network-links">
+            <a class="network-links" itemprop="sameAs" href="mailto:gmanu21097@gmail.com" target="_blank" rel="noopener">
               Mail Me
             </a>
-          </li>
-          <li class="network-links">
-            <a itemprop="sameAs" href="https://github.com/2021202025" target="_blank" rel="noopener">
-              Github
+            <a class="network-links" itemprop="sameAs" href="https://github.com/2021202025" target="_blank" rel="noopener">
+              | Github
             </a>
-          </li>
-          <li class="network-links">
-            <a itemprop="sameAs" href="https://www.hackerrank.com/2021202025_manu?hr_r=1" target="_blank" rel="noopener">
-              HackerRank
+            
+            <a class="network-links" itemprop="sameAs" href="https://www.hackerrank.com/2021202025_manu?hr_r=1" target="_blank" rel="noopener">
+              | HackerRank
             </a>
-          </li>
-
-        </ul> -->
+            <a class="network-links" itemprop="sameAs" href="https://iiitaphyd-my.sharepoint.com/:b:/g/personal/manu_gupta_students_iiit_ac_in/Efidj995bJNCsyFB5gdrsfwBlLd2m1pAiGKfqkqdzj0aRw?e=CTYwYK" download="cv.pdf" rel="noopener">
+              | RESUME
+            </a>
+          </div>
+        </div>
+        <br><br><br><br>
       </div>
 
 
 
 
-<a name="work"></a>
-<br><br><br><br><br>
-
-<div class="content">  
-  <h2>Work Experience</h2>
-  <div id="logos">
-  <img src="https://i.ibb.co/sb7085m/infosys-cover.png" alt = "InfosysLogo" />
+<!-- <a name="work"></a>
+<br><br><br><br><br> -->
+<div id="workContent">
+  <div class="content">  
+    <h2>Work Experience</h2>
+    <div id="logos">
+    <img src="https://i.ibb.co/sb7085m/infosys-cover.png" alt = "InfosysLogo" />
+    </div>
+    Aug'19 - Jan'21, System Engineer, Infosys Limited
+    <hr>
+    <ul>
+      <li>Making automated Deployment pipelines using DevOps</li>
+      <li>Dashboard developer project with Angular, MongoDB, Go, GraphQL</li>
+      <li>MS Teams bot app for various cloud functionalities</li>
+      <li>RPA Automation using UI Path</li>
+      <li>Testing automation scripting using iTAF</li>
+    </ul>
+    <br>
+    Feb'19 - May'19 System Engineer Trainee, Infosys Limited
+    <hr>
+    <ul>
+      <li>Online Tax Payment website</li>
+      <li>Image processing to pre-fill information by reading bills</li>
+      <li>Chat bot with full website navigation and intelligent responses</li>
+    </ul>
   </div>
-  Aug'19 - Jan'21, System Engineer, Infosys Limited
-  <hr>
-  <ul>
-    <li>Making automated Deployment pipelines using DevOps</li>
-    <li>Dashboard developer project with Angular, MongoDB, Go, GraphQL</li>
-    <li>MS Teams bot app for various cloud functionalities</li>
-    <li>RPA Automation using UI Path</li>
-    <li>Testing automation scripting using iTAF</li>
-  </ul>
-  <br>
-  Feb'19 - May'19 System Engineer Trainee, Infosys Limited
-  <hr>
-  <ul>
-    <li>Online Tax Payment website</li>
-    <li>Image processing to pre-fill information by reading bills</li>
-    <li>Chat bot with full website navigation and intelligent responses</li>
-  </ul>
+  <br><br><br><br>
 </div>
 
-<br>
 
-<a name="projects"></a>
-<br><br><br><br><br>
+<!-- <a name="projects"></a>
+<br><br><br><br><br> -->
 
-<div>
+<div id="projectsContent">
   <div class="content">
     <h2>Projects</h2>
+    <div id="logos">
+      <img src="https://i.ibb.co/zf13sF0/Galgotias-University.jpg" alt = "Galgotias Logo" />
+    </div>
     May'18 - Jan'19
     <hr>
     <ul>
@@ -148,13 +136,14 @@
     <br>
 
   </div>
+  <br><br><br><br>
 </div>
-<br>
 
-<a name="education"></a>
-<br><br><br><br><br>
 
-<div>
+<!-- <a name="education"></a>
+<br><br><br><br><br> -->
+
+<div id="educationContent">
   <div class="content">
     <h2>Education and Skills</h2>
     <div id="logos">
@@ -230,6 +219,7 @@
       </tbody>
     </table>
   </div>
+  <br><br><br><br>
 </div>
 
     <!-- <h3> Technical Skills </h3>
