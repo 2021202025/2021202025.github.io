@@ -28,36 +28,37 @@ header .nav-item {
   margin: 0 8px;
 }
 
-.burger{
-display: none;
+.burger {
+  display: none;
 }
 
 .burger div {
-text-align: right;
-width: 25px;
-height: 3px;
-background-color: rgb(0, 140, 255);
-margin: 5px;
+  text-align: right;
+  width: 25px;
+  height: 3px;
+  background-color: rgb(0, 140, 255);
+  margin: 5px;
 }
 
 header .nav-item:first-of-type {
   margin-left: 48px;
 }
 
-
 body {
   margin: 30px auto;
   width: 80%;
 }
 
-nav ul, footer ul {
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+nav ul,
+footer ul {
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
   padding: 0px;
   list-style: none;
   font-weight: bold;
 }
 
-nav ul li, footer ul li {
+nav ul li,
+footer ul li {
   display: inline;
   /* margin-right: 20px; */
 }
@@ -70,25 +71,29 @@ a {
   text-decoration: none;
   color: rgb(0, 140, 255);
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 h1 {
   font-size: 3em;
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
+
 p {
   font-size: 1.5em;
   line-height: 1.4em;
   color: #333;
 }
+
 footer {
   border-top: 1px solid #d5d5d5;
   font-size: .8em;
 }
 
-ul.posts { 
-  margin: 20px auto 40px; 
+ul.posts {
+  margin: 20px auto 40px;
   font-size: 5.5em;
 }
 
@@ -96,11 +101,12 @@ ul.posts li {
   list-style: none;
 }
 
-menu{
-  margin-top:20vh;
+menu {
+  margin-top: 20vh;
 }
-menu p{
-  line-height:125%;
+
+menu p {
+  line-height: 125%;
   padding: 25px;
 }
 
@@ -109,11 +115,15 @@ menu p{
   padding: 30px 10px;
   /* position: relative; */
 }
-.portrait{
+
+.portrait {
   border-radius: 50%;
+  width: 30%;
+  height: 30%;
   /* height: 100px;
-  width: 100px; */
+width: 100px; */
 }
+
 #profile ul.network-icon {
   display: inline-flex;
   flex-direction: row;
@@ -135,43 +145,47 @@ menu p{
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
-  padding-left: 5px;
-  padding-right: 5px;
-  color:rgb(0, 140, 255);
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgb(0, 140, 255);
   font-weight: bold;
   font-size: 1.1em;
 }
 
-#eduTable td{
+#eduTable td {
   text-align: justify;
+}
+
+.interestList {
+  margin-left: 5%;
 }
 
 
 /* #nav {
-  font: 12px/30px Helvetica, sans-serif;
-  text-align: center;
- }
-  
- #nav a {
-  background: #444;
-  color: #fff;
-  margin-right: 30px;
-  width: 30px;
-  height: 30px;
-  float: left;
-  text-decoration: none;
-  -webkit-transition: all 0.5s ease;
- }
-  
- #nav a:hover {
-  background: #6fcbf3;
- }
-  
- #bigPic {
-  margin-top: 30px;
- } */
+font: 12px/30px Helvetica, sans-serif;
+text-align: center;
+}
 
- table {
+#nav a {
+background: #444;
+color: #fff;
+margin-right: 30px;
+width: 30px;
+height: 30px;
+float: left;
+text-decoration: none;
+-webkit-transition: all 0.5s ease;
+}
+
+#nav a:hover {
+background: #6fcbf3;
+}
+
+#bigPic {
+margin-top: 30px;
+} */
+
+table {
   border: 1px solid #ccc;
   border-collapse: collapse;
   margin: 0;
@@ -203,27 +217,25 @@ table th {
   text-transform: uppercase;
 }
 
-
-
-.progressBar{
+.progressBar {
   background-color: rgb(0, 140, 255);
   border-radius: 4%;
-  height:15px;
-  width:65%;
+  height: 15px;
+  width: 65%;
 }
 
-#skillTable{
+#skillTable {
   text-align: center;
 }
 
-.skillRow{
+.skillRow {
   width: 100%;
-  background-color:grey;
+  background-color: grey;
 }
 
-.content{
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
-  padding:35px;
+.content {
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  padding: 35px;
   list-style: none;
   font-size: 1.5em;
   line-height: 1.4em;
@@ -232,84 +244,73 @@ table th {
   box-shadow: 5px 10px 18px #888888;
 }
 
-#logos{
-    text-align: center;
+#logos {
+  text-align: center;
 }
 
-.educationDiv{
-    background-color: lightblue;
+.educationDiv {
+  background-color: lightblue;
 }
 
-.skillData{
-    text-align: center;
+.skillData {
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-  header .nav-item{
-    font-size: 1.8vh;
+  header .nav-item {
+      font-size: 1.8vh;
   }
-
-  body{
-    width: 90%;
+  body {
+      width: 90%;
   }
-  
-
-  .content{
-    text-align:start;
-    font-size: 1.2em;
+  .content {
+      text-align: start;
+      font-size: 1.2em;
   }
-
   table {
-    border: 0;
+      border: 0;
   }
-
   table caption {
-    font-size: 1.3em;
+      font-size: 1.3em;
   }
-  
   table thead {
-    border: none;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
   }
-  
   table tr {
-    border-bottom: 3px solid #ddd;
-    display: block;
-    margin-bottom: .625em;
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
   }
-  
   table td {
-    border-bottom: 1px solid #ddd;
-    display: block;
-    font-size: 1.2em;
-    text-align: right;
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: 1.2em;
+      text-align: right;
   }
-  
   table td::before {
-    /*
-    * aria-label has no advantage, it won't be read inside a table
-    content: attr(aria-label);
-    */
-    content: attr(data-label);
-    float: left;
-    font-weight: bold;
-    text-transform: uppercase;
+      /*
+  * aria-label has no advantage, it won't be read inside a table
+  content: attr(aria-label);
+  */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
   }
-  
   table td:last-child {
-    border-bottom: 0;
+      border-bottom: 0;
   }
 }
 
 #clock {
-  color:rgb(0, 140, 255);
+  color: rgb(0, 140, 255);
   font-weight: bold;
   font-size: 1.3em;
   width: 120px;
